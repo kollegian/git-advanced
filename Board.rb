@@ -11,5 +11,6 @@ class Board
       puts
     end
   end
-end  
-
+end 
+game1=Board.new
+game1.print_board
