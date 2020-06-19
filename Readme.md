@@ -29,6 +29,8 @@ In order to understand the branches you should undersand that Git stores the dat
 to merge you need to commit all the changes in the other branch. then swtich to master and hit git merge <branchname>. then delete the branch by git branch -d <branchname> and then push it to the remote server. 
  git branch shows the list of other branches in your repo. you can see the merged and unmerged files like; git branch --merged and git branch --no-merged. 
 Rebase method is another way to merge two branches into master. Here you can have a flat line.   
+sasas
+  
 
 
 
