@@ -26,7 +26,9 @@ renaming remotes are done via git remote rename <froma> <tob>
 to delete it git remote remove <name>
 BRANCHES
 In order to understand the branches you should undersand that Git stores the data as snapshots by commits. Each commit creates and object that has the snapshot of the changes and pointers to the parents. When you commit new changes, the pointer of the master moves to the next commit. When you create a branch by simply clicking the git branch <name> you have two main pointers, one master pointing the last pushed commit and another one pointing the  same commit but the name of the new branch. but HEAD is another pointer that shows the which branch you are working on. To change the HEAD, you can simply press git checkout <branchname>
-sasa
+to merge you need to commit all the changes in the other branch. then swtich to master and hit git merge <branchname>. then delete the branch by git branch -d <branchname> and then push it to the remote server. 
+ git branch shows the list of other branches in your repo. you can see the merged and unmerged files like; git branch --merged and git branch --no-merged. 
+  
 
 
 
