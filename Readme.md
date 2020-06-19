@@ -21,5 +21,8 @@ Remotes are the repositories that you fetch and push. git push origin, here orig
 In order to get the data from thpse repositories git fetch <url> or <kısaltmaadı>
 If you already cloned a repo, you can simply git pull and then fetch all the data and then have it merged on the branch you work on automatically. 
 To push simply git push <remote> <branch>. git push origin master. If there are at least two parties working on the same repo, then before you can push, have it first fetched all the changes then push. 
+To get the info about the remotes you work on; git show remote <remotename>
+renaming remotes are done via git remote rename <froma> <tob>
+to delete it git remote remove <name>
 
 
