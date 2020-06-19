@@ -14,3 +14,12 @@ In order to limit the events from a time perspective, we can use the git log --s
 
 UNDOING THINGS
 Git commit --amend replaces the last commit
+to unstage; git reset HEAD <filename>
+to discard the changes without staging git checkout --<file>
+REMOTES
+Remotes are the repositories that you fetch and push. git push origin, here origin means the remote. You can add more repos by simply writing git remote add kısaltmaadı https://github.com/paulboone/ticgit.
+In order to get the data from thpse repositories git fetch <url> or <kısaltmaadı>
+If you already cloned a repo, you can simply git pull and then fetch all the data and then have it merged on the branch you work on automatically. 
+To push simply git push <remote> <branch>. git push origin master. If there are at least two parties working on the same repo, then before you can push, have it first fetched all the changes then push. 
+
+
